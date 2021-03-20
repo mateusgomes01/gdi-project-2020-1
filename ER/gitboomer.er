@@ -2,7 +2,7 @@
 # up until the end of the file (or the next entity declaration) correspond
 # to this entity.
 [user]
-*id
+*username
 name
 email
 bio
@@ -42,5 +42,5 @@ name
 # 1 or more      +
 user 1--* repository {label: "Has"}
 repository 1--* colaborator {label: "Has"}
-repository 1--* branch {label: "Has"}
+repository 1--+ branch {label: "Has"}
 
