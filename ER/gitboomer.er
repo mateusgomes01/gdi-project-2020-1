@@ -1,18 +1,33 @@
 # Entities are declared in '[' ... ']'. All attributes after the entity header
 # up until the end of the file (or the next entity declaration) correspond
 # to this entity.
-[Person]
-*name
-height
-weight
-`birth date`
-+birth_place_id
-
-[`Birth Place`]
+[user]
 *id
-`birth city`
-'birth state'
-"birth country"
+name
+email
+bio
+site
+location
+organization
+
+[repository]
+*id
+name
+url
+colaborators
+
+[organization]
+*id
+name
+location
+
+[branch]
+*id
+name
+
+[files]
+*id
+name
 
 # Each relationship must be between exactly two entities, which need not
 # be distinct. Each entity in the relationship has exactly one of four
@@ -23,4 +38,5 @@ weight
 # exactly 1      1
 # 0 or more      *
 # 1 or more      +
-Person *--1 `Birth Place` {label: "Pertence a"}
+user 1--* repository {label: "Has"}
+repository 1--* colaborator {label: "Has"}
