@@ -25,7 +25,7 @@
 		git pull # updates your branch with remote
 
 		git pull --rebase origin dev # updates current branch with any other branch. In this case, origin/dev
-
+		git log # registros de alterações
 ## work routine
 
 * git pull --rebase origin dev # updates current branch with any other branch. In this case, origin/dev
