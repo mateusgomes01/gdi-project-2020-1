@@ -29,6 +29,8 @@ name
 *id
 name
 
+
+
 # Each relationship must be between exactly two entities, which need not
 # be distinct. Each entity in the relationship has exactly one of four
 # possible cardinalities:
@@ -40,3 +42,5 @@ name
 # 1 or more      +
 user 1--* repository {label: "Has"}
 repository 1--* colaborator {label: "Has"}
+repository 1--* branch {label: "Has"}
+
