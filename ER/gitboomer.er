@@ -1,35 +1,61 @@
+title {label: "GitBoomer Entity-Relationship diagram", size: "30"}
+
 # Entities are declared in '[' ... ']'. All attributes after the entity header
 # up until the end of the file (or the next entity declaration) correspond
 # to this entity.
-[user]
-*id
+
+# Nice colors from Erwiz:
+# red #fcecec
+# blue #ececfc
+# green #d0e0d0
+# yellow #fbfbdb
+# orange #eee0a0
+
+# Entities
+
+[user] {bgcolor: "#d0e0d0"}
+*username
 name
 email
 bio
 site
 location
 organization
+created_at
+updated_at
 
-[repository]
+[repository] {bgcolor: "#ececfc"}
 *id
 name
 url
 colaborators
+created_at
+updated_at
 
-[organization]
+[organization] {bgcolor: "#fcecec"}
 *id
 name
 location
+created_at
+updated_at
 
-[branch]
+[branch] {bgcolor: "#d0e0d0"}
 *id
 name
+created_at
+updated_at
 
-[files]
+[file] {bgcolor: "#ececfc"}
 *id
 name
+created_at
+updated_at
 
-
+[commit] {bgcolor: "#fcecec"}
+*hash
+message
+created_at
+updated_at
 
 # Each relationship must be between exactly two entities, which need not
 # be distinct. Each entity in the relationship has exactly one of four
@@ -40,7 +66,26 @@ name
 # exactly 1      1
 # 0 or more      *
 # 1 or more      +
+
+# Relationships
+
 user 1--* repository {label: "Has"}
+user +--* repository {label: "Is part of:"}
 repository 1--* colaborator {label: "Has"}
-repository 1--* branch {label: "Has"}
+repository 1--+ branch {label: "Has"}
+user 1--* organization {label: "Has"}
+organization *--+ user {label: "Has"}
+organization 1--* repository {label: "Has"}
+branch 1--* file {label: "Has"}
+branch +--+ commit {label: "Has"}
+commit +--* file {label: "Has"}
+user 1--+ file {label: "modify"}
+user 1--* commit {label: "has"}
+user 1--* commit {label: "modify"}
+
+
+
+
+
+
 
