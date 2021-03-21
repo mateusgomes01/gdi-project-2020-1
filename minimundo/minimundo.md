@@ -4,9 +4,11 @@
 
 Um gitboomer possui multiplos usuarios, multiplas organizações, multiplos repositóros. Repositórios podem possuir um ou mais ramos. Ramos podem possuir um ou mais arquivos. Usuários podem ser comum ou premium. Repositórios podem ser públicos ou privados. 
 
-Usuários podem criar e possuir repositórios e organizações. Repositórios podem pertencer a um ou mais usuários, ou a uma ou mais organizações. Uma organização pode ter um ou mais repositórios. Usuários podem pertencer a uma ou mais organizações. Uma organização pode possuir um ou mais usuários.
+Usuários podem possuir repositórios e organizações. Repositórios podem pertencer a um usuário ou a uma organização. Uma organização pode possuir um ou mais repositórios. Usuários podem pertencer a uma ou mais organizações. Uma organização deve possuir um ou mais usuários.
 
-Usuários podem possuir repositórios locais ou remotos. Usuários podem ler, escrever e acrescentar em arquivos de ramos de repositórios. 
+Usuários podem possuir repositórios locais ou remotos (aqui podemos dividir em 2 tipos de repositório usando herança. Lembrar para colocar mais tarde). Repositórios devem possuir um ou mais ramos. Um ramo pode possuir um ou mais arquivos. Usuários podem ler, escrever e acrescentar em arquivos de ramos de repositórios os quais pertencem a ele ou que ele seja um colaborador.
+
+Ramos devem possuir um ou mais commits. Um commit deve pertencer a um ou mais ramos. Um commit pode possuir um ou mais arquivos. Um arquivo pode estar contido em um ou mais commits. Usuários podem possuir um ou mais commits. Um commit deve pertencer a um usuário. Um usuário pode editar ou apagar um ou mais commit que pertençam a ele. Um commit pode ser editado ou apagado por um usuário que o possua.
 
 Descrição do Minimundo
 
@@ -44,11 +46,11 @@ O seu minimundo deve ter, no mínimo, todos os elementos abaixo:
 * Atributo simples;
 * Atributo composto;
 * Atributo multivalorado;
-* Relacionamento 1:1;
-* Relacionamento 1:N;
-* Relacionamento M:N;
+* ---Relacionamento 1:1;---
+* ---Relacionamento 1:N;---
+* ---Relacionamento M:N;---
 * Relacionamento identificador;
-* Relacionamento com participação obrigatória;
+* ---Relacionamento com participação obrigatória;---
 * Auto-relacionamento com papel;
 * Relacionamento ternário;
 * Relacionamento com atributo comum;
@@ -57,7 +59,7 @@ O seu minimundo deve ter, no mínimo, todos os elementos abaixo:
 * Especialização.
 
 Atenção:
-* Pelo menos 03 atributos por entidade;
-* Pelo menos 01 atributo de tipo numérico;
-* Pelo menos 01 atributo de tipo data;
+* ---Pelo menos 03 atributos por entidade;---
+* ---Pelo menos 01 atributo de tipo numérico;---
+* ---Pelo menos 01 atributo de tipo data;---
 * Não pode haver entidade livre.
