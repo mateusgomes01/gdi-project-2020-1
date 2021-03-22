@@ -42,15 +42,16 @@ ou Doutorado) e pode ser de várias titulações.
 
 Recife, [dia] de [mês] de [ano].
 
-O seu minimundo deve ter, no mínimo, todos os elementos abaixo:
+O seu minimundo deve ter, no mínimo, todos os elementos abaixo:  
+
 * Atributo simples;
 * Atributo composto;
 * Atributo multivalorado;
-* ---Relacionamento 1:1;---
-* ---Relacionamento 1:N;---
-* ---Relacionamento M:N;---
+* ~~Relacionamento 1:1;~~
+* ~~Relacionamento 1:N;~~
+* ~~Relacionamento M:N;~~
 * Relacionamento identificador;
-* ---Relacionamento com participação obrigatória;---
+* ~~Relacionamento com participação obrigatória;~~
 * Auto-relacionamento com papel;
 * Relacionamento ternário;
 * Relacionamento com atributo comum;
@@ -59,7 +60,7 @@ O seu minimundo deve ter, no mínimo, todos os elementos abaixo:
 * Especialização.
 
 Atenção:
-* ---Pelo menos 03 atributos por entidade;---
-* ---Pelo menos 01 atributo de tipo numérico;---
-* ---Pelo menos 01 atributo de tipo data;---
+* ~~Pelo menos 03 atributos por entidade;~~
+* ~~Pelo menos 01 atributo de tipo numérico;~~
+* ~~Pelo menos 01 atributo de tipo data;~~
 * Não pode haver entidade livre.
