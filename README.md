@@ -1,12 +1,12 @@
 # GDI project 2020.1
 
 ## Team members 
-* Danilo Nogueira (dabn)
-* Layse Araujo (lrsa)
-* Lucas Vinícius (lvas)
-* Marton Paulo (mpss2)
-* Mateus Melo (mgm6)
-* Vitor Tavares (vat2)
+* Danilo Nogueira - dabn@cin.ufpe.br
+* Layse Araujo - lrsa@cin.ufpe.br
+* Lucas Vinícius - lvas@cin.ufpe.br
+* Marton Paulo - mpss2@cin.ufpe.br
+* Mateus Melo - mgm6@cin.ufpe.br
+* Vitor Tavares - vat2@cin.ufpe.br
 
 ## Sugestions on how to contribute:
 
