@@ -8,6 +8,8 @@ Usuários podem possuir repositórios e organizações. Repositórios podem pert
 
 Usuários podem possuir repositórios locais ou remotos (aqui podemos dividir em 2 tipos de repositório usando herança. Lembrar para colocar mais tarde). Repositórios devem possuir um ou mais ramos. Um ramo pode possuir um ou mais arquivos. Usuários podem ler, escrever e acrescentar em arquivos de ramos de repositórios os quais pertencem a ele ou que ele seja um colaborador.
 
+Um usuário pode seguir outros usuários. Bio é atributo composto (adcionar depois).
+
 Ramos devem possuir um ou mais commits. Um commit deve pertencer a um ou mais ramos. Um commit pode possuir um ou mais arquivos. Um arquivo pode estar contido em um ou mais commits. Usuários podem possuir um ou mais commits. Um commit deve pertencer a um usuário. Um usuário pode editar ou apagar um ou mais commit que pertençam a ele. Um commit pode ser editado ou apagado por um usuário que o possua.
 
 Exemplo de descrição do Minimundo - econtrado no [site da monitoria](https://sites.google.com/a/cin.ufpe.br/if685ec/material)
@@ -16,6 +18,24 @@ Um empregado tem CPF, nome, sexo, salário, data de nascimento, um ou mais telef
 Recife, [dia] de [mês] de [ano].
 
 O seu minimundo deve ter, no mínimo, todos os elementos abaixo:  
+
+* Atributo composto
+* Atributo multivalorado
+* Atributo discriminador em relacionamento
+
+* ~~Relacionamento 1:1 ou 1:N~~
+* ~~Relacionamento N:M~~
+* Relacionamento parcial-total
+* Relacionamento parcial-parcial
+* Relacionamento identificador (Entidade Fraca)
+* ~~Relacionamento Unário (Auto Relacionamento)~~
+* Relacionamento Binário
+* Relacionamento N-ário ou Entidade Associativa
+* Herança (qualquer tipo)
+
+Atenção:
+* Não se preocupem em cobrir todo o domínio do problema, pois o objetivo do projeto é exercitar os conceitos aprendidos na disciplina e não resolver um problema real
+* Especifiquem poucos atributos por entidade, mas garantam que vocês tenham atributos do tipo numérico (salário, quantidade, valor, …), data (dt_nascimento, dt_abertura, dt_realização, ... ) e texto (nome, descrição, CPF, ...).
 
 * ~~Atributo simples;~~
 * Atributo composto;
