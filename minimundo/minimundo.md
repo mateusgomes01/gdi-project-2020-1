@@ -30,7 +30,7 @@ O seu minimundo deve ter, no mínimo, todos os elementos abaixo:
 * Relacionamento identificador (Entidade Fraca)
 * ~~Relacionamento Unário (Auto Relacionamento)~~
 * Relacionamento Binário
-* Relacionamento N-ário ou Entidade Associativa
+* ~~relacionamento N-ário ou Entidade Associativa~~
 * Herança (qualquer tipo)
 
 Atenção:
