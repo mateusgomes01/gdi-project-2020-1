@@ -19,19 +19,19 @@ Recife, [dia] de [mês] de [ano].
 
 O seu minimundo deve ter, no mínimo, todos os elementos abaixo:  
 
-* Atributo composto
-* Atributo multivalorado
+* ~~Atributo composto~~
+* ~~Atributo multivalorado~~
 * Atributo discriminador em relacionamento
 
 * ~~Relacionamento 1:1 ou 1:N~~
 * ~~Relacionamento N:M~~
-* Relacionamento parcial-total
-* Relacionamento parcial-parcial
+* ~~Relacionamento parcial-total~~
+* ~~Relacionamento parcial-parcial~~
 * Relacionamento identificador (Entidade Fraca)
 * ~~Relacionamento Unário (Auto Relacionamento)~~
-* Relacionamento Binário
+* ~~Relacionamento Binário~~
 * ~~relacionamento N-ário ou Entidade Associativa~~
-* Herança (qualquer tipo)
+* ~~Herança (qualquer tipo)~~
 
 Atenção:
 * Não se preocupem em cobrir todo o domínio do problema, pois o objetivo do projeto é exercitar os conceitos aprendidos na disciplina e não resolver um problema real
