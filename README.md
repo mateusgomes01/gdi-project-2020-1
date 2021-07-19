@@ -2,11 +2,9 @@
 
 ## Team members 
 * Danilo Nogueira - dabn@cin.ufpe.br
-* Layse Araújo - lrsa@cin.ufpe.br
 * Lucas Vinícius - lvas@cin.ufpe.br
 * Marton Paulo - mpss2@cin.ufpe.br
 * Mateus Melo - mgm6@cin.ufpe.br
-* Vítor Tavares - vat2@cin.ufpe.br
 
 ## Sugestions on how to contribute:
 
